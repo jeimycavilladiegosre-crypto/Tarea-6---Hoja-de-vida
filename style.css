@@ -1,0 +1,103 @@
+```css
+/* Configuración general de la página */
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #333333;
+}
+
+
+/* Contenedor principal */
+
+.hoja-vida {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Encabezado */
+
+header {
+    background-color: #243447;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header h2 {
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+
+/* Contenido */
+
+.contenido {
+    display: flex;
+}
+
+
+/* Columna izquierda */
+
+aside {
+    width: 30%;
+    background-color: #f1f3f5;
+    padding: 25px;
+}
+
+
+/* Columna derecha */
+
+main {
+    width: 70%;
+    padding: 30px;
+}
+
+
+/* Títulos de las secciones */
+
+h3 {
+    color: #243447;
+    border-bottom: 2px solid #243447;
+    padding-bottom: 8px;
+    font-size: 17px;
+}
+
+
+/* Subtítulos */
+
+h4 {
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+
+/* Párrafos */
+
+p {
+    line-height: 1.6;
+}
+
+
+/* Listas */
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+```
